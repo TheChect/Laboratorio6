@@ -1,4 +1,4 @@
-/* Estilos compartidos por las cuatro páginas. */
+/* Estilos compartidos por las cuatro pÃ¡ginas. */
 :root { --verde: #185c48; --papel: #f6f5ef; }
 body { background: var(--papel); color: #23372f; font-family: Arial, sans-serif; }
 .navbar { border-bottom: 1px solid #d9ded8; background: var(--papel); }
@@ -14,7 +14,7 @@ h1 { font-size: clamp(2.4rem, 5vw, 4.6rem); line-height: 1.08; font-weight: 750;
 .card { border: 1px solid #dce2db; border-radius: 16px; overflow: hidden; box-shadow: none; }
 .card-body { padding: 24px; }
 .card-text { line-height: 1.75; color: #4b5e53; }
-.card-img-top { width: 100%; aspect-ratio: 600 / 270; object-fit: cover; }
+.card-img-top { width: 100%; height: auto; aspect-ratio: 600 / 270; object-fit: contain; }
 .card-title { font-weight: 700; }
 .accordion { --bs-accordion-active-bg: #e3eee7; --bs-accordion-active-color: #154c3c; --bs-accordion-btn-focus-box-shadow: 0 0 0 .2rem #185c4830; }
 footer { border-top: 1px solid #d9ded8; color: #627268; margin-top: 65px; padding: 25px 0; font-size: .9rem; }
